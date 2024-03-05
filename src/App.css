@@ -1,11 +1,140 @@
-.App {
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.authHeader{
+  flex-direction:row-reverse;
+  padding-right:2%;
+}
+
+.nav {
+  padding-left: 50px;
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
+.center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contentCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.input{
+  padding:15px;
+  margin:8px;
+  width: 100%;
+  border-radius:5px;
+  width:350px;
+}
+
+.productInput{
+  width:350px;
+}
+
+.button{
+  background-color:black;
+  color:white;
+  padding:4px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.buttonMargin{
+  margin-top:15px;
+}
+
+.logo{
+  width:74px;
+  float:left;
+  background-color:black;
+  filter:invert(100%);
+}
+
+.bigHeading{
+  font-size:50px;
+}
+
+.error{
+  color:red;
+  align-self:flex-start;
+  margin-top:-5px;
+  margin-left:8px;
+  margin-bottom:5px;
+}
+
+.product-list{
+  text-align:center;
+}
+
+.product-list ul{
+margin:0px;
+}
+
+.product-list ul li{
+  display:inline-block;
+ width:170px;
+padding: 10px;
+height: 25px;
+  border: 1px solid black;
+
+}
+
+.search{
+  margin-bottom: 20px;
+  margin-top: -5px;
+  border-radius:10px;
+}
+
+.red{
+  color:red;
+  font-weight:bold;
+}
+.redBackground{
+  background-color:red;
+ 
+}
+
+.black{
+  color:black
+}
+
+.underline{
+  text-decoration:underline;
+}
+
+.signUpFont{
+  font-size:10px;
+}
+
+.flexDisplay{
+  display: flex;
+  flex-direction:row;
+}
+
+.loginMargin{
+  margin-top:5px;
+}
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,25 +142,11 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
